@@ -7,14 +7,16 @@ title:              Tay
 subtitle:           '测试博客'
 description:        ''
 keywords:
-author:             Tay
+author:             古寒飞
 language:           zh-CN
 timezone:           'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url:                http://wiki.taycc.com/blogs
-root:               /blogs/
+#url:                https://tay3223.github.io/myblog
+#root:               /myblog/
+url:                http://tianye.wiki
+root:               /
 permalink:          :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,4 +107,6 @@ theme:              pure
 # Deployment
 ## Docs:            https://hexo.io/docs/one-command-deployment
 deploy:
-  type:             ''
+  type:             'git'
+  repo:             'git@github.com:tay3223/myblog.git'
+  branch:           'github-pages'

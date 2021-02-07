@@ -190,12 +190,14 @@ profile:
   author_title:             ---
   author_description:       个人简介。
   location:                 Shanghai, China
-  follow:                   https://github.com/cofess
+  #follow:                   https://github.com/cofess
+  follow:                   https://gitee.com/tay3223/projects
+
   # Social Links
   social:
     links:
-      github:               https://github.com/cofess
-      weibo:                http://weibo.com/cofess
+      github:               https://gitee.com/tay3223/projects
+      weibo:                http://weibo.com/3273364431
       #twitter:             https://twitter.com/iwebued
       # facebook:           /
       # dribbble:           /
