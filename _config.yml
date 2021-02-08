@@ -2,39 +2,57 @@
 ## Docs:            https://hexo.io/docs/configuration.html
 ## Source:          https://github.com/hexojs/hexo/
 
-# Site
+#标题
 title:              Tay
+#副标题
 subtitle:           '测试博客'
+#描述
 description:        ''
+#关键词，支持多个关键词
 keywords:
+#您的名字
 author:             古寒飞
+#语言
 language:           zh-CN
+#时区
 timezone:           'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-#url:                https://tay3223.github.io/myblog
-#root:               /myblog/
+
+#url:               https://tay3223.github.io/myblog
+#root:              /myblog/
 url:                http://tianye.wiki
 root:               /
+#文章的永久链接格式
 permalink:          :year/:month/:day/:title/
+#永久链接中各部分的默认值
 permalink_defaults:
+#改写permalink的值来美化URL
 pretty_urls:
   trailing_index:   true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html:    true # Set to false to remove trailing '.html' from permalinks
 
-# Directory
+#资源文件夹
 source_dir:         source
+#公共文件夹
 public_dir:         public
+#标签文件夹
 tag_dir:            tags
+#归档文件夹
 archive_dir:        archives
+#分类文件夹
 category_dir:       categories
+#Include code文件夹，source_dir下的子目录
 code_dir:           downloads/code
+#国际化(i18n)文件夹
 i18n_dir:           :lang
+#跳过指定文件的渲染，匹配到的文件将会被原封不动的复制到public目录中
 skip_render:
 
-# Writing
+#新文章的文件名
 new_post_name:      :title.md # File name of new posts
+#预设布局
 default_layout:     post
 titlecase:          false # Transform title into titlecase
 external_link:
